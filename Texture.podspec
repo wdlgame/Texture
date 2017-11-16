@@ -18,7 +18,8 @@ Pod::Spec.new do |spec|
 
   # Uncomment when fixed: issues with tvOS build for release 2.0
   # spec.tvos.deployment_target = '9.0'
-
+  spec.dependency "IGListKit"
+  
   # Subspecs
   spec.subspec 'Core' do |core|
     core.public_header_files = [
